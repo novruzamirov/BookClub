@@ -1,0 +1,19 @@
+@keyframes successSlideStart {
+  from {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  to {
+    // transform: translateY(100px);
+    opacity: 1;
+  }
+}
+
+@keyframes successSlideEnd {
+  from {
+    display: block;
+  }
+  to {
+    display: none;
+  }
+}

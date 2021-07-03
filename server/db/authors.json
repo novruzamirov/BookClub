@@ -1,0 +1,60 @@
+[{
+        "name": "Daven Mcqueen",
+        "imgUrl": "https://thequietpond.files.wordpress.com/2021/02/daven-mcqueen-headshot-resized.png?w=800",
+        "id": 0,
+        "biography": "Daven McQueen grew up outside of Los Angeles, California. She graduated from Brown University, where she earned a B.A. in literary arts and economics. When she’s not writing, Daven can be found tap dancing, embroidering, cooking, and eating dessert. She lives in Boston, Massachusetts and works in education."
+    },
+    {
+        "name": "Harper Lee",
+        "imgUrl": "https://pyxis.nymag.com/v1/imgs/bf8/773/56b03ba7a7553bfb1bb50c63e1ad0a6457-17-harper-lee.rsquare.w700.jpg",
+        "id": 1,
+        "biography": "Harper Lee, whose first novel, “To Kill a Mockingbird,” about racial injustice in a small Alabama town, sold more than 40 million copies and became one of the most beloved and most taught works of fiction ever written by an American, died on Friday in Monroeville, Ala., where she lived. She was 89."
+    },
+    {
+        "name": "Jane Austen",
+        "imgUrl": "https://www.telegraph.co.uk/content/dam/books/2021/04/19/TELEMMGLPICT000130509170_trans_NvBQzQNjv4Bqxqudurc5yeFP8agH1DpUvtAd3UvPlVJGR4GIruz6T88.jpeg?imwidth=480",
+        "id": 2,
+        "biography": "Jane Austen, (born December 16, 1775, Steventon, Hampshire, England—died July 18, 1817, Winchester, Hampshire), English writer who first gave the novel its distinctly modern character through her treatment of ordinary people in everyday life. She published four novels during her lifetime"
+    },
+    {
+        "name": "Antoine de Saint-Exupery",
+        "imgUrl": "http://citaty.info/files/portraits/3726.png",
+        "id": 3,
+        "biography": "Antoine de Saint-Exupéry, in full Antoine-Marie-Roger de Saint-Exupéry, (born June 29, 1900, Lyon, France—died July 31, 1944, near Marseille), French aviator and writer whose works are the unique testimony of a pilot and a warrior who looked at adventure and danger with a poet’s eyes. His fable Le Petit Prince (The Little Prince) has become a modern classic."
+    },
+    {
+        "name": "Robert Lacey",
+        "imgUrl": "https://www.robertlacey.com/wp-content/uploads/2018/08/robert-lacey-244x300.jpg",
+        "id": 4,
+        "biography": "Robert Lacey (born 3 January 1944) is a British historian and biographer. He is the author of a number of best-selling biographies, including those of Henry Ford,[1] Eileen Ford and Queen Elizabeth II, as well as several other works of popular history. He is best known for his work as historian to the Netflix award-winning drama The Crown. Lacey was educated at Selwyn College, Cambridge where he studied history."
+    },
+    {
+        "name": "Ximo Abadia",
+        "imgUrl": "https://www.veguetaediciones.com/wp-content/uploads/Ximo-Abadia.jpg",
+        "id": 5,
+        "biography": "Ximo Abadía was born in 1983 in Alicante, Spain, and spent his childhood between the countryside and the coastal city of Benidorm. At the age of 18, he started his studies in Madrid. In 2009 he published his first graphic novel, Cartulinas de colores, with Diábolo ediciones. In 2011 he published CLONk (nominated for Best New Author prize at the Barcelona Fair) and La Bipolaridad del chocolate."
+    },
+    {
+        "name": "Lauren Oliver",
+        "imgUrl": "https://www.hollywoodreporter.com/wp-content/uploads/2019/05/lauren_oliver.jpg?w=681&h=383&crop=1",
+        "id": 6,
+        "biography": "Lauren Oliver (born Laura Suzanne Schechter; November 8, 1982) is an American author of numerous young adult novels including Panic; the Delirium trilogy: Delirium, Pandemonium, and Requiem; and Before I Fall, which became a major motion picture in 2017. Her novels have been translated into more than thirty languages internationally. Oliver is a 2012 E.B. White Read-Aloud Award nominee for her middle-grade novel Liesl & Po, as well as author of the middle-grade fantasy novel The Spindlers."
+    },
+    {
+        "name": "Jason Matthews",
+        "imgUrl": "https://i1.wp.com/therealbookspy.com/wp-content/uploads/2016/07/jason-matthews-author-pic.jpg?fit=410%2C422&ssl=1",
+        "id": 7,
+        "biography": "Jason Matthews (1951 – April 28, 2021) was an American author of espionage novels and former officer of CIA, best known for the Red Sparrow spy novel trilogy. Jason was married to Suzanne, also a former officer. He died April 28, 2021 at age 69 from corticobasal degeneration."
+    },
+    {
+        "name": "J. R. R. Tolkien",
+        "imgUrl": "https://i.harperapps.com/hcuk/authors/005767/x500.JPG",
+        "id": 8,
+        "biography": "John Ronald Reuel Tolkien CBE FRSL (3 January 1892 – 2 September 1973) was an English writer, poet, philologist, and academic, best known as the author of the high fantasy works The Hobbit and The Lord of the Rings."
+    },
+    {
+        "name": "Jo Nesbo",
+        "imgUrl": "https://www.irishtimes.com/polopoly_fs/1.3940405.1561719312!/image/image.jpg_gen/derivatives/ratio_1x1_w1200/image.jpg",
+        "id": 9,
+        "biography": "Jo Nesbø (Norwegian: [ˈjuː ˈnɛ̀sbøː] born 29 March 1960) is a Norwegian writer, musician, economist, and former soccer player and reporter. More than 3 million copies of his novels had been sold in Norway as of March 2014 his work has been translated into over 50 languages, and by 2021 had sold some 50 million copies worldwide"
+    }]

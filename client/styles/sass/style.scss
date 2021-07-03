@@ -1,0 +1,20 @@
+@import "./modules/notifications";
+@import "./modules/variables";
+@import "./modules/navigation";
+@import "./modules/general";
+@import "./modules/signupModal";
+@import "./modules/bookSelection";
+@import "./modules/topSellingBooks";
+@import "./modules/authors";
+@import "./modules/booksCard";
+@import "./modules/allAuthors";
+@import "./animation";
+@import "./modules/dashboard";
+@import "./modules/bookDetailsModal";
+@import "./modules/authorDetailsModal";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
