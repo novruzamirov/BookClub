@@ -342,6 +342,7 @@
   text-align: center;
 }
 .authors__wrapper__item img {
+  object-fit: cover;
   width: 150px;
   height: 150px;
   border-radius: 50%;

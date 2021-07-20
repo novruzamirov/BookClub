@@ -14,7 +14,7 @@ const bookDetailSubmitBtn = document.getElementById('book-details-submit');
 
 authorDetailsModalClose.addEventListener('click', () =>{
     authorDetailsModal.style.display = "none";
-    wrapper.style.filter = "blur(0px) opacity(1)";
+    wrapper.style.filter = "blur(0px) opacity(1)"; 
 })
 
 authorDetailSubmit.addEventListener('click', (e) => {
@@ -154,7 +154,7 @@ function deleteEditBookById() {
             .then(({data: bookById}) => {
                 handleDetailsModalOpen();
 
-                document.getElementById("id").value = bookById.id;
+                document.getElementById("book-id").value = bookById.id;
                 document.getElementById("title").value = bookById.title;
                 document.getElementById("author").value = bookById.author;
                 document.getElementById("publisher").value = bookById.publisher;
@@ -322,23 +322,29 @@ function fetchAllAuthors(){
     fetchAllBooks();
 
     booksTab.addEventListener('click', () => {
-        authorsTab.className = "";
-        usersTab.className = "";
-        booksTab.className = "dashboard__navigation__active";
-        fetchAllBooks();
+        if( booksTab.className != "dashboard__navigation__active"){
+            authorsTab.className = "";
+            usersTab.className = "";
+            booksTab.className = "dashboard__navigation__active";
+            fetchAllBooks();
+        }
     });
 
     authorsTab.addEventListener('click', () => {
-        booksTab.className = "";
-        usersTab.className = "";
-        authorsTab.className = "dashboard__navigation__active";
-        fetchAllAuthors();
+        if( authorsTab.className != "dashboard__navigation__active"){
+            booksTab.className = "";
+            usersTab.className = "";
+            authorsTab.className = "dashboard__navigation__active";
+            fetchAllAuthors();
+        }
     });
 
     usersTab.addEventListener('click', () => {
-        booksTab.className = "";
-        authorsTab.className = "";
-        usersTab.className = "dashboard__navigation__active";
-        fetchAllUsers();
+        if(usersTab.className != "dashboard__navigation__active"){
+            booksTab.className = "";
+            authorsTab.className = "";
+            usersTab.className = "dashboard__navigation__active";
+            fetchAllUsers();
+        }
     });
 })();

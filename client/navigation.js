@@ -124,14 +124,6 @@ logoutBtn.addEventListener('click', () =>{
     
 })
 
-allAuthors.addEventListener('click', () =>{
-    location.href = "authors.html";
-})
-
-dashBoard.addEventListener('click', () =>{
-    location.href = "dashboard.html";
-})
-
 if(localStorage.getItem("USER_LOGGED_IN")){
     loginBtn.insertAdjacentHTML("beforebegin",`<li id="local-mail" style="color: black">${localStorage.getItem("USER_LOGGED_IN")}</li>`)
     logoutBtn.style.display = "block";
@@ -141,9 +133,25 @@ if(localStorage.getItem("USER_LOGGED_IN")){
 }
 
 logo.addEventListener('click', () =>{
-    location.href = 'index.html';
+    if(locationArray[locationArray.length - 1] != "index.html"){
+        location.href = "index.html";
+    }
+})
+
+allAuthors.addEventListener('click', () =>{
+    if(locationArray[locationArray.length - 1] != "authors.html"){
+        location.href = "authors.html";
+    }
+})
+
+dashBoard.addEventListener('click', () =>{
+    if(locationArray[locationArray.length - 1] != "dashboard.html"){
+        location.href = "dashboard.html";
+    }
 })
 
 allBooks.addEventListener("click", () => {
-    location.href = "books.html";
+    if(locationArray[locationArray.length - 1] != "books.html"){
+        location.href = "books.html";
+    }
 })

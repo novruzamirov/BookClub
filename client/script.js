@@ -12,8 +12,12 @@ const dashBoard = document.getElementById('dashboard');
 const logoutBtn = document.getElementById('logout-btn');
 const logo = document.getElementById('logo');
 
+const locationArray = location.href.split("/");
+
 logo.addEventListener('click', () =>{
-    location.href = 'index.html';
+    if(locationArray[locationArray.length - 1] != "index.html"){
+        location.href = "index.html";
+    }
 })
 
 logoutBtn.addEventListener('click', () =>{
